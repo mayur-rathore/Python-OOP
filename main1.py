@@ -45,4 +45,3 @@ print(Mayur.__dict__)           # output = {'fname': 'Mayur', 'lname': 'Mochi', 
 
 print(Employee.__dict__)        # list out all the instances/variables of class
 
-# lets resolve merge conflicts
