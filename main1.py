@@ -34,6 +34,8 @@ print(Employee.no_of_employees)                     # print 1 because one employ
 Raj = Employee("Raj", "Mochi", 100000)              # Raj object while increment is class's personal variable
 print(Employee.no_of_employees)                     # print 2 because two employees "Mayur" and "Raj" created
 
+#
+
 
 print(Mayur.salary)
 Mayur.increase()
