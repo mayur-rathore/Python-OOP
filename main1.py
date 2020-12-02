@@ -34,8 +34,6 @@ print(Employee.no_of_employees)                     # print 1 because one employ
 Raj = Employee("Raj", "Mochi", 100000)              # Raj object while increment is class's personal variable
 print(Employee.no_of_employees)                     # print 2 because two employees "Mayur" and "Raj" created
 
-#
-
 
 print(Mayur.salary)
 Mayur.increase()
@@ -46,4 +44,3 @@ Mayur.increment = 9             # constructor) output = {'fname': 'Mayur', 'lnam
 print(Mayur.__dict__)           # output = {'fname': 'Mayur', 'lname': 'Mochi', 'salary': 150000.0, 'increment': 9}
 
 print(Employee.__dict__)        # list out all the instances/variables of class
-
